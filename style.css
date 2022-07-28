@@ -1,0 +1,48 @@
+*{
+    background-color: blanchedalmond;
+    margin: 0;
+    box-sizing: border-box; 
+}
+body{
+    height: 100%;
+}
+p{
+    background-color: red;
+}
+#input{
+    margin: 16px;
+}
+#countryP{
+    padding: 16px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+#infoDiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    
+    
+}
+.cell{
+    height: 200px;
+    font-size: 20px;
+    width: 24%;
+    padding: 16px;
+    background-color: red;
+    border: 1px solid rgb(83, 0, 0);
+    margin:16px 0px;
+    color: rgb(196, 196, 0);
+}
+a{
+    width: max-content;
+    background-color: red;
+    text-decoration: none;
+}
+#countryP{
+    font-size:24px;
+    background-color:blanchedalmond ;
+}
